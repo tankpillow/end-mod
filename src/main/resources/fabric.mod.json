@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "tanks-end-update",
+	"version": "${version}",
+	"name": "Tank's End Update",
+	"description": "tankpillow's take on a Minecraft End Update",
+	"authors": [
+		"tankpillow"
+	],
+	"contact": {
+		"homepage": "https://www.tankpillow.dev/",
+		"sources": "https://github.com/tankpillow/end-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/tanks-end-update/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.tankpillow.end.TanksEndUpdate"
+		],
+		"fabric-datagen": [
+			"dev.tankpillow.end.TanksEndUpdateDataGenerator"
+		]
+	},
+	"mixins": [
+		"tanks-end-update.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
