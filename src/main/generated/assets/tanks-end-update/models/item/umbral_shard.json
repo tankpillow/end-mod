@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tanks-end-update:item/umbral_shard"
+  }
+}
