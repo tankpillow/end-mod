@@ -1,3 +1,6 @@
 {
-	"item.tanks-end-update.umbral_shard": "Umbral Shard"
+	"item.tanks-end-update.umbral_shard": "Umbral Shard",
+	
+	"creativemodetab.tanks-end-update.items": "Tank's End Update Items",
+	"creativemodetab.tanks-end-update.blocks": "Tank's End Update Blocks",
 }

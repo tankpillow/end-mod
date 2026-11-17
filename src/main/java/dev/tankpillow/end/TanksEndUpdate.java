@@ -7,6 +7,7 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import dev.tankpillow.end.creativemodetab.ModCreativeModeTabs;
 import dev.tankpillow.end.item.ModItems;
 
 public class TanksEndUpdate implements ModInitializer {
@@ -16,6 +17,7 @@ public class TanksEndUpdate implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.register();
 		ModItems.register();
 		
 	}
